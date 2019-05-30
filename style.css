@@ -37,3 +37,155 @@ nav a {
 .heart {
 	padding: 0 10px;
 }
+
+.header {
+	color: white;
+	background-color: rgb(32, 101, 136);
+	background-image: url('./images/city-scape.svg');
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+
+.header .search-bar {
+	color: white;
+	padding: 0 10px;
+}
+
+.header .search-bar img {
+	height: 30px;
+}
+
+.header .search-bar input {
+	width: 75%;
+	display: inline-block;
+	background-color: rgb(31, 82, 111);
+	line-height: 2.5em;
+	padding: 0 15px;
+	font-size: 1em;
+	border: 1.5px solid rgb(66, 109, 133);
+}
+
+.header .search-bar ul {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.header .search-bar li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.header .header-main {
+	margin: 0 auto;
+	padding-top: 60px;
+	width: 600px;
+}
+
+.header .search-bar a {
+	text-decoration: none;
+	color: white;
+}
+
+#section-1 {
+	background-color: rgb(39, 53, 71);
+	color: white;
+	padding: 0 5%;
+}
+
+#section-2 {
+	background-size: cover;
+	background-image: url('./images/forklift.svg');
+	height: 70vh;
+	color: white;
+	padding: 10px;
+	position: relative;
+}
+
+#section-3 {
+	text-align: center;
+	padding-left: 150px;
+	height: 60vh;
+	padding-top: 100px;
+	padding-right: 150px;
+	background-color: white;
+}
+#section-3 .headers {
+	padding-bottom: 50px;
+}
+
+.about-content {
+	position: absolute;
+	width: 25%;
+	left: 20%;
+	top: 30%;
+}
+
+.col {
+	float: left;
+}
+
+.col-3 {
+	width: 30%;
+	display: inline-block;
+}
+.col-middle {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.collaboration {
+	width: 1300px;
+	margin: 0 auto;
+	padding-top: 100px;
+	overflow: hidden;
+}
+
+.collaboration-content {
+	float: right;
+	width: 50%;
+}
+.collaboration-image {
+	width: 50%;
+	float: left;
+}
+
+.section3-h3 {
+	color: rgb(83, 88, 98);
+}
+
+.section3-paragraph {
+	color: rgb(135, 145, 156);
+}
+
+.section3-link {
+	color: rgb(208, 74, 73);
+	text-decoration: none;
+}
+
+.header-sign-up {
+	background-color: rgb(240, 146, 51);
+	border: none;
+	padding: 15px;
+	font-size: 1em;
+	border-radius: 25px;
+	color: white;
+}
+
+.section1-button {
+	background-color: rgb(203, 56, 55);
+	border: none;
+	padding: 15px;
+	font-size: 1em;
+	border-radius: 25px;
+	color: white;
+}
+
+.section2-button {
+	background-color: rgb(49, 68, 88);
+	border: none;
+	padding: 15px;
+	font-size: 1em;
+	border-radius: 25px;
+	color: white;
+}
