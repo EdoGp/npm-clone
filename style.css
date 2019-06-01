@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', OpenSans, sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: lighter !important;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.headers h2 {
+	font-size: 1.5em;
+	font-weight: bolder;
 }
 
 nav {
@@ -56,7 +72,7 @@ nav a {
 }
 
 .header .search-bar input {
-	width: 75%;
+	width: 70%;
 	display: inline-block;
 	background-color: rgb(31, 82, 111);
 	line-height: 2.5em;
@@ -90,7 +106,6 @@ nav a {
 #section-1 {
 	background-color: rgb(39, 53, 71);
 	color: white;
-	padding: 0 5%;
 }
 
 #section-2 {
@@ -109,9 +124,22 @@ nav a {
 	padding-top: 100px;
 	padding-right: 150px;
 	background-color: white;
+	color: rgb(84, 86, 92);
 }
 #section-3 .headers {
 	padding-bottom: 50px;
+}
+p {
+	line-height: 1.5em;
+}
+
+.collaboration-ul > li {
+	line-height: 2.5em;
+}
+
+.collaboration-link {
+	color: white;
+	text-decoration: none;
 }
 
 .about-content {
@@ -135,19 +163,18 @@ nav a {
 }
 
 .collaboration {
-	width: 1300px;
 	margin: 0 auto;
-	padding-top: 100px;
+	padding: 80px;
 	overflow: hidden;
 }
 
 .collaboration-content {
 	float: right;
-	width: 50%;
+	width: 45%;
 }
 .collaboration-image {
-	width: 50%;
 	float: left;
+	width: 45%;
 }
 
 .section3-h3 {
@@ -166,7 +193,7 @@ nav a {
 .header-sign-up {
 	background-color: rgb(240, 146, 51);
 	border: none;
-	padding: 15px;
+	padding: 10px 24px;
 	font-size: 1em;
 	border-radius: 25px;
 	color: white;
@@ -175,7 +202,7 @@ nav a {
 .section1-button {
 	background-color: rgb(203, 56, 55);
 	border: none;
-	padding: 15px;
+	padding: 10px 20px;
 	font-size: 1em;
 	border-radius: 25px;
 	color: white;
@@ -184,7 +211,7 @@ nav a {
 .section2-button {
 	background-color: rgb(49, 68, 88);
 	border: none;
-	padding: 15px;
+	padding: 10px 20px;
 	font-size: 1em;
 	border-radius: 25px;
 	color: white;
